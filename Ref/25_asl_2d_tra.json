@@ -20,6 +20,8 @@
 	"ScanOptions": "PFP\\SAT1\\FS",
 	"PulseSequenceName": "*epfid2d1_64",
 	"ImageType": ["ORIGINAL", "PRIMARY", "ASL", "NONE"],
+	"ImageTypeText": ["ORIGINAL", "PRIMARY", "ASL", "NONE", "NORM", "DIS2D"],
+	"NonlinearGradientCorrection": true,
 	"SeriesNumber": 25,
 	"AcquisitionTime": "12:14:17.020000",
 	"AcquisitionNumber": 1,
@@ -29,6 +31,8 @@
 	"RepetitionTime": 4.8,
 	"MTState": false,
 	"FlipAngle": 90,
+	"LabelingDuration": 1.8,
+	"PostLabelingDelay": 1.8,
 	"PartialFourier": 0.75,
 	"BaseResolution": 64,
 	"ShimSetting": [
@@ -49,6 +53,7 @@
 	"CoilCombinationMethod": "Adaptive Combine",
 	"MatrixCoilMode": "SENSE",
 	"PostLabelDelay": 1.8,
+	"ArterialSpinLabelingType": "PCASL",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 48,
@@ -85,5 +90,5 @@
 		1e-06	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220707"
+	"ConversionSoftwareVersion": "v1.0.20220717"
 }

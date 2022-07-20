@@ -19,6 +19,8 @@
 	"SequenceVariant": "SP",
 	"PulseSequenceName": "*fm2d2r",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "NONE"],
+	"ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "DIS2D"],
+	"NonlinearGradientCorrection": true,
 	"SeriesNumber": 8,
 	"AcquisitionTime": "12:09:42.480000",
 	"AcquisitionNumber": 1,
@@ -99,5 +101,5 @@
 		-0.060947	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220707"
+	"ConversionSoftwareVersion": "v1.0.20220717"
 }

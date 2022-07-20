@@ -20,6 +20,8 @@
 	"ScanOptions": "PFP\\FS",
 	"PulseSequenceName": "epse2d1_72",
 	"ImageType": ["DERIVED", "PRIMARY", "DIFFUSION", "FA"],
+	"ImageTypeText": ["DERIVED", "PRIMARY", "DIFFUSION", "FA", "MB", "ND"],
+	"NonlinearGradientCorrection": false,
 	"RawImage": false,
 	"SeriesNumber": 14,
 	"AcquisitionTime": "12:11:19.757500",
@@ -112,5 +114,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220707"
+	"ConversionSoftwareVersion": "v1.0.20220717"
 }

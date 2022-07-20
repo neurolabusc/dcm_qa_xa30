@@ -20,6 +20,8 @@
 	"ScanOptions": "PFP\\FS",
 	"PulseSequenceName": "epfid2d1_64",
 	"ImageType": ["ORIGINAL", "PRIMARY", "FMRI", "NONE"],
+	"ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "MB", "ND"],
+	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 7,
 	"AcquisitionTime": "12:09:5.225000",
 	"AcquisitionNumber": 1,
@@ -108,5 +110,5 @@
 		-0.0955329	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220707"
+	"ConversionSoftwareVersion": "v1.0.20220717"
 }

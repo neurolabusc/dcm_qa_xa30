@@ -20,6 +20,8 @@
 	"ScanOptions": "IR",
 	"PulseSequenceName": "*tfl3d1_16ns",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "NONE"],
+	"ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "DIS2D"],
+	"NonlinearGradientCorrection": true,
 	"SeriesNumber": 5,
 	"AcquisitionTime": "12:05:17.042500",
 	"AcquisitionNumber": 1,
@@ -67,5 +69,5 @@
 		-1	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220707"
+	"ConversionSoftwareVersion": "v1.0.20220717"
 }
